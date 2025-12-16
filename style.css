@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'HalyardDisplay_font';
+    src: url(./fonts/HalyardDisplayMedium.woff);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+
+.dm-sans-font {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.halyardDisplay_font {
+  font-family: 'HalyardDisplay_font', sans-serif;
+}
+.debug{
+  border: 2px solid red;
+}
+
+.container{
+    max-width: 1220px;
+    margin: auto;
+}
+
+/* common styles */
+.custom-swiper-btn_next{
+  width: 50px;
+  height: 50px;
+  background: #6E9EFA;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+}
+
+.custom-swiper-btn_prev {
+  width: 50px;
+  height: 50px;
+  background: rgb(237, 237, 237);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+}
+
+/* left button */
+.custom-swiper-btn_prev {
+  left: 20px;
+}
+
+/* right button */
+.custom-swiper-btn_next {
+  right: 20px;
+}
