@@ -65,3 +65,9 @@
 .custom-swiper-btn_next {
   right: 20px;
 }
+
+@media screen and (max-width: 576px){
+  .custom-swiper-btn_next, .custom-swiper-btn_prev{
+    top: 75%;
+  }
+}

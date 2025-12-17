@@ -63,3 +63,57 @@ acc.forEach(btn => {
   });
 });
 
+// mobile navbar
+const hamburger = document.getElementById("hamburger"); 
+const mobileDrawer = document.getElementById("mobileDrawer"); 
+const mobileClose = document.getElementById("mobileClose"); 
+const overlayHeader = document.getElementById("overlayHeader"); 
+
+const mobilePageNav = document.getElementById("mobilePageNav"); 
+const mobilePageNavMenu = document.getElementById("mobilePageNavMenu");
+
+// console.log(drawer, overlay, hamburger, crossIcon, mobilePageNav, mobilePageNavMenu);
+
+// Open drawer
+hamburger.addEventListener("click", () => {
+    mobileDrawer.classList.remove("-translate-x-full");
+    overlayHeader.classList.remove("hidden");
+});
+
+// Close drawer (X button)
+mobileClose.addEventListener("click", () => {
+    mobileDrawer.classList.add("-translate-x-full");
+    overlayHeader.classList.add("hidden");
+});
+
+// Close drawer (overlay click)
+overlayHeader.addEventListener("click", () => {
+    mobileDrawer.classList.add("-translate-x-full");
+    overlayHeader.classList.add("hidden");
+});
+
+mobilePageNav.addEventListener("click", function() {
+    mobilePageNavMenu.classList.toggle("hidden");
+})
+
+
+// for search box
+const searchToggle = document.getElementById("searchToggle");
+const searchDropdown = document.getElementById("searchDropdown");
+
+searchToggle.addEventListener("click", (e) => {
+    e.stopPropagation();
+    searchDropdown.classList.toggle("opacity-0");
+    searchDropdown.classList.toggle("invisible");
+    searchDropdown.classList.toggle("translate-y-2");
+});
+
+// Prevent closing when clicking inside dropdown
+searchDropdown.addEventListener("click", (e) => {
+    e.stopPropagation();
+});
+
+// Close when clicking outside
+document.addEventListener("click", () => {
+    searchDropdown.classList.add("opacity-0", "invisible", "translate-y-2");
+});
