@@ -26,6 +26,16 @@ var swiperBanner = new Swiper(".service_slider", {
 // Select all accordion buttons
 const acc = document.querySelectorAll(".accordion");
 
+if (acc.length > 1) {
+  const secondBtn = acc[1];
+  const secondPanel = secondBtn.nextElementSibling;
+  const secondIcon = secondBtn.querySelector("i");
+
+  secondPanel.classList.remove("hidden");  // Show panel
+  secondIcon.classList.add("rotate-180");   // Rotate arrow
+}
+
+
 acc.forEach(btn => {
   btn.addEventListener("click", () => {
     // Close all other panels first
