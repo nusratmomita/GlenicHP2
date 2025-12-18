@@ -61,6 +61,15 @@
   left: 20px;
 }
 
+.custom-swiper-btn_prev:hover{
+  background: #6E9EFA;
+}
+
+.custom-swiper-btn_next:hover{
+  background: rgb(237, 237, 237);
+}
+
+
 /* right button */
 .custom-swiper-btn_next {
   right: 20px;
