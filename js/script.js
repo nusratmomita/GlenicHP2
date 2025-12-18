@@ -33,6 +33,9 @@ if (acc.length > 1) {
 
   secondPanel.classList.remove("hidden");  // Show panel
   secondIcon.classList.add("rotate-180");   // Rotate arrow
+  secondIcon.classList.add(
+    "w-[12px]", "h-[30px]", "pl-7", "pt-[5px]", "cursor-pointer"
+  );
 }
 
 
@@ -45,6 +48,7 @@ acc.forEach(btn => {
         const otherIcon = otherBtn.querySelector("i");
         otherPanel.classList.add("hidden");
         otherIcon.classList.remove("rotate-180");
+        
       }
     });
 
@@ -58,7 +62,7 @@ acc.forEach(btn => {
 
     // Add Tailwind styling once (optional, safe)
     icon.classList.add(
-      "w-[12px]", "h-[30px]", "pl-8", "pt-[5px]", "cursor-pointer"
+      "w-[12px]", "h-[30px]", "pl-7", "pt-[5px]", "cursor-pointer"
     );
   });
 });
