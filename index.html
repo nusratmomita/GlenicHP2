@@ -80,7 +80,7 @@
                 </div>
            
                 <!-- nav icons -->
-                <div class="flex lg:-ml-6 -ml-0 items-center justify-center relative mt-8 lg:mt-[25px]">
+                <div class="flex gap-3 lg:gap-0 lg:-ml-6 -ml-0 items-center justify-center relative mt-8 lg:mt-[25px]">
                     <!-- hamburger for small screen -->
                     <button id="hamburger" class="lg:hidden">
                         <i class="fa-solid fa-bars text-md text-[#424B5C] hover:text-[#6E9EFA] cursor-pointer"></i>
@@ -188,36 +188,39 @@
     </header>
 
     <main>
-        <!-- ! banner section -->
+        <!-- banner section -->
         <div class="swiper hero_banner_slider">
             <div class="swiper-wrapper">
                 <!-- slide - 1 -->
-                <div class="swiper-slide bg-[url('./assets/BannerImg2nd.png')] bg-cover bg-no-repeat bg-center">
-                    <div class="container flex flex-col lg:flex-row">
-                        <div class="pt-50 lg:pt-[246px] pb-60 lg:pb-[221px]">
-                            <h4 class="text-center lg:text-left font-[400] text-[24px] leading-[36px] text-[#6E9EFA]">Hi, It’s our Glenic</h4>
-                            <h2 class="whitespace-nowrap text-center lg:text-left font-[500] text-[30px] lg:text-[70px] leading-[40px] lg:leading-[70px] text-[#222222] halyardDisplay_font">Make Your Appointment <br> With Our Consultants.</h2>
-                            <p class="px-4 lg:px-0 text-center lg:text-left font-[400] text-[18px] leading-[20px] lg:leading-[28px] text-[#424B5C] mt-[10px] lg:mt-[29px]">Pellentesque a arcu tincidunt, sollicitudin eros sed, venenatis justo. Proin sed <br class="hidden lg:block"> tellus massa. Nullam bibendum sodales est in faucibus.</p>
-                            <div class="flex justify-center items-center lg:block">
-                                <div class="group relative bg-[#FFFFFF] mt-[20px] lg:mt-[40px] rounded-[40px] lg:w-[280px] lg:h-[62px] flex hover:bg-[#6E9EFA] cursor-pointer transition-all duration-300">
-                                    <button class="font-[500] text-[16px] leading-[24px] text-[#6E9EFA] uppercase py-2 pl-4 lg:py-[19px] lg:pl-[32px] whitespace-nowrap  group-hover:text-[#ffffff] cursor-pointer">Book Appointment</button>
-                                    <img class="ml-[23px] py-1 pr-1 group-hover:hidden" src="./assets/bookCircle.png" alt="bookCircle">
-                                    <img class="ml-[23px] py-1 pr-1 hidden group-hover:block" src="./assets/whiteCircle.png" alt="whiteCircle">
-                                    <i class="fa-solid fa-arrow-right absolute right-6 top-6 text-[#ffffff] group-hover:text-[#6E9EFA]"></i>
+                <div class="swiper-slide bg-[url('./assets/BannerImg2nd.png')] bg-cover bg-no-repeat lg:bg-center">
+                    <div class="container">
+                        <div class="flex flex-col lg:flex-row  relative">
+                            <div class="pt-20 lg:pt-[246px] pb-60 lg:pb-[221px]">
+                                <h4 class="text-center lg:text-left font-[400] text-[24px] leading-[36px] text-[#6E9EFA]">Hi, It’s our Glenic</h4>
+                                <h2 class="whitespace-nowrap text-center lg:text-left font-[500] text-[30px] lg:text-[70px] leading-[40px] lg:leading-[70px] text-[#222222] halyardDisplay_font">Make Your Appointment <br> With Our Consultants.</h2>
+                                <p class="px-4 lg:px-0 text-center lg:text-left font-[400] text-[18px] leading-[20px] lg:leading-[28px] text-[#424B5C] mt-[10px] lg:mt-[29px]">Pellentesque a arcu tincidunt, sollicitudin eros sed, venenatis justo. Proin sed <br class="hidden lg:block"> tellus massa. Nullam bibendum sodales est in faucibus.</p>
+                                <div class="flex justify-center items-center lg:block">
+                                    <div class="group relative bg-[#FFFFFF] mt-[20px] lg:mt-[40px] rounded-[40px] lg:w-[280px] lg:h-[62px] flex hover:bg-[#6E9EFA] cursor-pointer transition-all duration-300">
+                                        <button class="font-[500] text-[16px] leading-[24px] text-[#6E9EFA] uppercase py-2 pl-4 lg:py-[19px] lg:pl-[32px] whitespace-nowrap  group-hover:text-[#ffffff] cursor-pointer">Book Appointment</button>
+                                        <img class="ml-[23px] py-1 pr-1 group-hover:hidden" src="./assets/bookCircle.png" alt="bookCircle">
+                                        <img class="ml-[23px] py-1 pr-1 hidden group-hover:block" src="./assets/whiteCircle.png" alt="whiteCircle">
+                                        <i class="fa-solid fa-arrow-right absolute right-6 top-6 text-[#ffffff] group-hover:text-[#6E9EFA]"></i>
+                                    </div>
                                 </div>
-                            </div>
-                            <div>
-                                <img class="hidden lg:block absolute top-[650px] left-[720px] animate-pulse" src="./assets/blueCircle.png" alt="blueCircle">
-                                <img class="hidden lg:block absolute top-[320px] -left-[50px] animate-spin" src="./assets/blueWhite.png" alt="blueCircle">
-                                <img class="hidden lg:block absolute top-[150px] left-[450px] animate-ping" src="./assets/pinkCircle.png" alt="pinkCircle">
+                                <div>
+                                    <img class="w-[50px] hidden lg:block absolute top-[230px] left-[1120px] animate-spin" src="./assets/blueWhite.png" alt="blueCircle">
+                                    <img class="hidden lg:block absolute top-[650px] left-[720px] animate-pulse" src="./assets/blueCircle.png" alt="blueCircle">
+                                    <img class="hidden lg:block absolute top-[300px] -left-[150px] animate-spin" src="./assets/blueWhite.png" alt="blueCircle">
+                                    <img class="hidden lg:block absolute top-[100px] left-[460px] animate-ping" src="./assets/pinkCircle.png" alt="pinkCircle">
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <!-- slide - 2 -->
-                <div class="swiper-slide bg-[url('./assets/BannerImg2nd.png')] bg-cover bg-no-repeat">
+                <div class="swiper-slide bg-[url('./assets/BannerImg2nd.png')] bg-cover bg-no-repeat lg:bg-center">
                     <div class="container flex flex-col lg:flex-row relative">
-                        <div class="pt-50 lg:pt-[212px] pb-60 lg:pb-[221px]">
+                        <div class="pt-20 lg:pt-[212px] pb-60 lg:pb-[221px]">
                             <h4 class="text-center lg:text-left font-[400] text-[24px] leading-[36px] text-[#6E9EFA]">Hi, It’s our Glenic</h4>
                             <h2 class="whitespace-nowrap text-center lg:text-left font-[500] text-[30px] lg:text-[70px] leading-[40px] lg:leading-[70px] text-[#222222] halyardDisplay_font">Good Health Moves Us <br>Forward.</h2>
                             <p class="px-4 lg:px-0 text-center lg:text-left font-[400] text-[18px] leading-[20px] lg:leading-[28px] text-[#424B5C] mt-[10px] lg:mt-[29px]">Pellentesque a arcu tincidunt, sollicitudin eros sed, venenatis justo. Proin sed <br class="hidden lg:block"> tellus massa. Nullam bibendum sodales est in faucibus.</p>
@@ -230,9 +233,10 @@
                                 </div>
                             </div>
                             <div>
+                                <img class="w-[50px] hidden lg:block absolute top-[230px] left-[1120px] animate-spin" src="./assets/blueWhite.png" alt="blueCircle">
                                 <img class="hidden lg:block absolute top-[650px] left-[720px] animate-pulse" src="./assets/blueCircle.png" alt="blueCircle">
-                                <img class="hidden lg:block absolute top-[320px] -left-[50px] animate-spin" src="./assets/blueWhite.png" alt="blueCircle">
-                                <img class="hidden lg:block absolute top-[150px] left-[450px] animate-ping" src="./assets/pinkCircle.png" alt="pinkCircle">
+                                <img class="hidden lg:block absolute top-[300px] -left-[150px] animate-spin" src="./assets/blueWhite.png" alt="blueCircle">
+                                <img class="hidden lg:block absolute top-[100px] left-[460px] animate-ping" src="./assets/pinkCircle.png" alt="pinkCircle">
                             </div>
                         </div>
                     </div>
@@ -247,12 +251,12 @@
         </div>
 
         <!-- about us section -->
-        <div class="mt-[107px]">
+        <div class="mt-[60px] lg:mt-[107px]">
             <div class="container">
                 <div class="flex flex-col lg:flex-row lg:gap-[82px]">
                     <!-- left image -->
                     <div class="lg:w-[40%] relative">
-                        <img class="mt-[50px] z-999 relative object-cover px-4 lg:px-0" src="./assets/patient1.png" alt="patient1">
+                        <img class="mt-[50px] lg:z-999 relative object-cover px-4 lg:px-0" src="./assets/patient1.png" alt="patient1">
                         <div class="hidden lg:block mt-[120px] absolute -top-29 left-10 overflow-hidden z-0" >
                             <img src="./assets/squareBlue.png" alt="squareBlue">
                         </div>
@@ -274,34 +278,34 @@
                         </div>
                     </div>
                     <!-- right side text -->
-                    <div class="lg:w-[60%] mtt-[50px]">
+                    <div class="lg:w-[60%] mt-[50px]">
                         <h4 class="text-center lg:text-left font-[400] text-[24px] leading-[34px] text-[#6E9EFA]">10 years experience</h4>
                         <h2 class="text-center lg:text-left font-[500] text-[35px] lg:text-[50px] leading-[45px] lg:leading-[62px] text-[#222222] halyardDisplay_font mb-[10px] lg:mt-[4px] px-4 lg:px-0">We Are Best Treatment  <br class="hidden lg:block"> For our Hospital.</h2>
                         <p class="text-center lg:text-left font-[400] text-[16px] leading-[30px] text-[#424B5C] mb-[18px]">Fusce eu eros nec felis venenatis fermentum sit amet eget turpis. Integer <br class="hidden lg:block"> tempus massa ac arcu sollicitudin sollicitudin Vivamus neque urna, iaculis et <br class="hidden lg:block"> orci id, euismod tempor arcu semper congue nulla amet finibus.</p>
     
                         <div class="mt-[19px] flex flex-col lg:flex-row justify-start items-center gap-[24px]">
                             <div>
-                                <div class="flex gap-[16px] flex-col lg:flex-row justify-center lg:justify-start items-center">
+                                <div class="flex lg:gap-[16px] flex-col lg:flex-row justify-center lg:justify-start items-center">
                                     <img src="./assets/modernApproch.png" alt="modernApproach">
                                     <div>
-                                        <h2 class="font-[500] text-[24px] leading-[30px] halyardDisplay_font text-[#222222]">Modern Approach</h2>
+                                        <h2 class="text-center lg:text-left font-[500] text-[24px] leading-[30px] halyardDisplay_font text-[#222222]">Modern Approach</h2>
                                         <h5 class="font-[400] text-[16px] leading-[30px] mt-[4px] text-[#222222]">Vivamus neque urna, aculs.</h5>
                                     </div>
                                 </div>
                             </div>
     
                             <div>
-                                <div class="flex gap-[24px] flex-col lg:flex-row justify-center lg:justify-start items-center">
+                                <div class="flex lg:gap-[24px] flex-col lg:flex-row justify-center lg:justify-start items-center">
                                     <img src="./assets/progressiveClinic.png" alt="progressiveClinic">
                                     <div>
-                                        <h2 class="font-[500] text-[24px] leading-[30px] halyardDisplay_font text-[#222222]">Progressive Clinic</h2>
+                                        <h2 class="text-center lg:text-left font-[500] text-[24px] leading-[30px] halyardDisplay_font text-[#222222]">Progressive Clinic</h2>
                                         <h5 class="font-[400] text-[16px] leading-[30px] mt-[4px] text-[#222222]">Vivamus neque urna, aculs.</h5>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div>
-                            <p class="font-[400] text-[16px] leading-[30px] mt-[9px] text-[#424B5C] text-center lg:text-left">Sit amet eget turpis. Integer tempus massa ac arcu sollicitudin sollicitudin Vivamus neque urna, iaculis et orci id, euismod tempor arcu.</p>
+                            <p class="px-4 lg:px-0 font-[400] text-[16px] leading-[30px] mt-[9px] text-[#424B5C] text-center lg:text-left">Sit amet eget turpis. Integer tempus massa ac arcu sollicitudin sollicitudin Vivamus neque urna, iaculis et orci id, euismod tempor arcu.</p>
                         </div>
                         <div class="hidden lg:block mt-[20px] relative">
                             <img src="./assets/blueTextBox.png" alt="blueTextBox">
@@ -422,8 +426,8 @@
         </div>
 
         <!-- glenic big text -->
-        <div class="lg:mt-[36px] mt-[20px] lg:-ml-6 lg:mr-[91px] px-4 lg:px-0 flex justify-center items-center">
-            <h1 class="font-[500] text-[30px] lg:text-[200px] halyardDisplay_font text-[#F8F8F8] uppercase">About <span class="text-[#6E9EFA]">.</span> Glenic</h1>
+        <div class="lg:mt-[36px] mt-[20px] lg:-ml-6 lg:mr-[91px] flex justify-center items-center">
+            <h1 class="font-[500] text-[45px] lg:text-[200px] halyardDisplay_font text-[#F8F8F8] uppercase">About <span class="text-[#6E9EFA]">.</span> Glenic</h1>
         </div>
 
         <!-- about us section-->
@@ -443,8 +447,8 @@
                                     <p class="px-4 lg:px-0 font-[400] text-[16px] leading-[30px] text-[#424B5C] mt-[9px]">Fusce eu eros nec felis venenatis fermentum sit amet eget turpis. Integer <br class="hidden lg:block"> tempus massa ac arcu sollicitudin sollicitudin Vivamus neque urna, iaculis et <br class="hidden lg:block"> orci id, euismod tempor arcu semper congue nulla amet finibus.</p>
                                     <p class="px-4 lg:px-0 font-[400] text-[16px] leading-[30px] text-[#424B5C] mt-[18px]">Integer tempus massa ac arcu sollicitudin sollicitudin Vivamus neque urna, <br class="hidden lg:block"> iaculis et orci id, euismod tempor arcu semper congue nulla amet finibus.</p>
             
-                                    <div class="flex gap-[8px] lg:gap-[19px] mt-[17px] lg:mb-0 mb-10 justify-center items-center lg:justify-start lg:items-start">
-                                        <img class="w-[80px] h-[80px]" src="./assets/locationIcon.png" alt="locationIcon">
+                                    <div class="px-5 lg:px-0 flex gap-[8px] lg:gap-[19px] mt-[17px] lg:mb-0 mb-10 justify-center items-center lg:justify-start lg:items-start">
+                                        <img class="w-[50px] h-[50px] lg:w-[80px] lg:h-[80px]" src="./assets/locationIcon.png" alt="locationIcon">
                                         <h3 class="font-[400] text-[18px] leading-[30px] lg:text-[24px] lg:leading-[36px] text-[#222222] halyardDisplay_font">Block C Road AL Mirpur- Pollobi,<br class="hidden lg:block"> Washington Park, Illinois.</h3>
                                     </div>
                                 </div> 
@@ -461,11 +465,11 @@
                                 <div class="pt-[60px] lg:pt-[111px]">
                                     <h3 class="text-center lg:text-left font-[400] text-[24px] leading-[34px] text-[#6E9EFA]">Emergency Contact</h3>
                                     <h2 class="text-center lg:text-left font-[500] text-[30px] lg:text-[50px] leading-[31px] lg:leading-[62px] text-[#FFFFFF] halyardDisplay_font mt-[3px] capitalize">Our hospital emergency contact service.</h2>
-                                    <p class="px-4 lg:px-0 font-[400] text-[16px] leading-[30px] font-[400] text-[16px] leading-[30px] text-[#FFFFFF99] mt-[9px]">Fusce eu eros nec felis venenatis fermentum sit amet eget turpis. Integer <br> tempus massa ac arcu sollicitudin sollicitudin Vivamus neque urna, iaculis et <br> orci id, euismod tempor arcu semper congue nulla amet finibus.</p>
-                                    <p class="px-4 lg:px-0 font-[400] text-[16px] leading-[30px] font-[400] text-[16px] leading-[30px] text-[#FFFFFF99] mt-[18px]">Integer tempus massa ac arcu sollicitudin sollicitudin Vivamus neque urna, <br> iaculis et orci id, euismod tempor arcu semper congue nulla amet finibus.</p>
+                                    <p class="px-4 lg:px-0 font-[400] text-[16px] leading-[30px] font-[400] text-[16px] leading-[30px] text-[#FFFFFF99] mt-[9px]">Fusce eu eros nec felis venenatis fermentum sit amet eget turpis. Integer <br class="hidden lg:block"> tempus massa ac arcu sollicitudin sollicitudin Vivamus neque urna, iaculis et <br class="hidden lg:block"> orci id, euismod tempor arcu semper congue nulla amet finibus.</p>
+                                    <p class="px-4 lg:px-0 font-[400] text-[16px] leading-[30px] font-[400] text-[16px] leading-[30px] text-[#FFFFFF99] mt-[18px]">Integer tempus massa ac arcu sollicitudin sollicitudin Vivamus neque urna, <br class="hidden lg:block"> iaculis et orci id, euismod tempor arcu semper congue nulla amet finibus.</p>
             
                                     <div class="flex gap-[16px] lg:gap-[19px] mt-[17px] justify-center items-center lg:justify-start lg:items-start">
-                                        <img class="w-[60px] h-[60px]" src="./assets/callIconEmergency.png" alt="locationIcon">
+                                        <img class="w-[50px] h-[50px] lg:w-[80px] lg:h-[80px]" src="./assets/callIconEmergency.png" alt="locationIcon">
                                         <h3 class="font-[400] text-[18px] leading-[30px] lg:text-[24px] lg:leading-[36px] text-[#FFFFFF] halyardDisplay_font">Contact Us<br>+(1)245-45678 call</h3>
                                     </div>
                                 </div> 
@@ -488,7 +492,7 @@
                 </div>
                 <div class="flex flex-col lg:flex-row gap-[30px] justify-center items-center mx-auto">
                     <div class="bg-[#FFFFFF] shadow-[0_10px_25px_0_rgba(0,0,0,0.05)] w-[370px] h-[504px] rounded-[10px]">
-                        <img class="px-4 lg:px-0 rounded-[10px]" src="./assets/doctorsUsignTab.png" alt="doctor">
+                        <img class="rounded-[10px]" src="./assets/doctorsUsignTab.png" alt="doctor">
                         <div class="mt-[24px] ml-[25px] mb-[22px]">
                             <h3 class="font-[700] text-[24px] leading-[30px] text-[#222222]">Donald L. Juarez</h3>
                             <h4 class="font-[400] text-[14px] leading-[30px] text-[#6E9EFA] mt-[3px] mb-[13px]">Medicine</h4>
@@ -501,7 +505,7 @@
                         </div>
                     </div>
                     <div class="bg-[#FFFFFF] shadow-[0_10px_25px_0_rgba(0,0,0,0.05)] w-[370px] rounded-[10px] h-[504px]">
-                        <img class="px-4 lg:px-0 rounded-[10px]" src="./assets/doctorsUsignTab.png" alt="doctor">
+                        <img class="rounded-[10px]" src="./assets/doctorsUsignTab.png" alt="doctor">
                         <div class="mt-[24px] ml-[25px] mb-[22px]">
                             <h3 class="font-[700] text-[24px] leading-[30px] text-[#222222]">Tanvir L. Tuarez</h3>
                             <h4 class="font-[400] text-[14px] leading-[30px] text-[#6E9EFA] mt-[3px] mb-[13px]">Orthopadics</h4>
@@ -514,7 +518,7 @@
                         </div>
                     </div>
                     <div class="bg-[#FFFFFF] shadow-[0_10px_25px_0_rgba(0,0,0,0.05)] w-[370px] rounded-[10px] h-[504px]">
-                        <img class="px-4 lg:px-0 rounded-[10px]" src="./assets/doctorsUsignTab.png" alt="doctor">
+                        <img class="rounded-[10px]" src="./assets/doctorsUsignTab.png" alt="doctor">
                         <div class="mt-[24px] ml-[25px] mb-[22px]">
                             <h3 class="font-[700] text-[24px] leading-[30px] text-[#222222]">Towkib L. Muarez</h3>
                             <h4 class="font-[400] text-[14px] leading-[30px] text-[#6E9EFA] mt-[3px] mb-[13px]">Neurologist</h4>
@@ -531,7 +535,7 @@
         </div>
 
         <!-- emergency section-->
-        <div class="mt-[180px] px-4 lg:px-0">
+        <div class="mt-[130px] lg:mt-[180px] px-4 lg:px-0">
             <div class="container relative flex flex-col lg:flex-row gap-[98px]">
                 <!-- left side images -->
                 <div>
@@ -541,7 +545,7 @@
                     <img class="hidden lg:block absolute absolute -top-[45px] right-175 " src="./assets/blueSquareDots.png" alt="blueSquareDots">
                 </div>
                 <!-- right side text -->
-                <div class="lg:-mt-15 -mt-10">
+                <div class="lg:-mt-15 -mt-15">
                     <div>
                         <h3 class="text-center lg:text-left font-[400] text-[24px] leading-[36px] text-[#6E9EFA]">Our Journey</h3>
                         <h2 class="text-center lg:text-left font-[500] text-[35px] lg:text-[50px] leading-[40px] lg:leading-[62px] text-[#222222] mt-[4px] halyardDisplay_font">Our Success Service.</h2>
@@ -578,7 +582,7 @@
         </div>
 
         <!-- why choose us section -->
-        <div class="mt-[112px] relative">
+        <div class="mt-[60px] lg:mt-[112px] relative">
             <div class="bg-[url('./assets/serviceBG.png')] bg-cover bg-no-repeat relative overflow-hidden">
                 <h1 class="absolute ml-100 mt-30 font-[500] text-[400px] text-[#F8F8F8] z-0 text-center">Serv<span class="text-[#6E9EFA]">i</span>ce</h1>
                 <div class="container">
@@ -599,7 +603,7 @@
                             </div>
                         </div>
                         <!-- servcies -->
-                        <div class="relative z-10 grid grid-cols-1 grid-rows-1 lg:grid-cols-2 lg:grid-rows-2 place-items-center gap-y-[30px] gap-x-[60px]">
+                        <div class="mt-20 lg:mt-0 mb-20 lg:mb-0 relative z-10 grid grid-cols-1 grid-rows-1 lg:grid-cols-2 lg:grid-rows-2 place-items-center gap-y-[30px] gap-x-[60px]">
                             <div class="group cursor-pointer w-[270px] h-[243px] rounded-[10px] bg-[#ffffff] hover:bg-[#6E9EFA] shadow-lg shadow-[#0000000D] flex flex-col justify-center items-center gap-[9px] transition-all duration-300">
                                 <img class="group-hover:hidden block" src="./assets/hoveredFeature3.png" alt="Feature3">
                                 <img class="hidden group-hover:block" src="./assets/hoveredServices.png" alt="hoveredFeature3">
@@ -635,7 +639,7 @@
             <div class="bg-[url('./assets/checkUpBG.png')] bg-cover bg-no-repeat relative">
                 <div class="text-center pt-[96px]">
                     <h4 class="font-[400] text-[18px] lg:text-[24px] text-[#6E9EFA]">Need a Doctor for Check-up?</h4>
-                    <h2 class="font-[500] text-[35px] text-[32px] lg:text-[50px] lg:text-[64px] text-[#FFFFFF] halyardDisplay_font">We provide the best medical services <br> for you and your family.</h2>
+                    <h2 class="px-4 lg:px-0 font-[500] text-[25px] lg:text-[50px] lg:leading-[64px] text-[#FFFFFF] halyardDisplay_font">We provide the best medical services <br class="hidden lg:block"> for you and your family.</h2>
                 </div>
                 <!-- form -->
                 <div class="container pt-[39px] mb-[120px]">
@@ -702,7 +706,7 @@
                         <div class="flex justify-center items-center">
                             <div class="group relative mt-[40px] rounded-[40px] w-[240px] lg:w-[280px] lg:h-[62px] flex gap-[33px] cursor-pointer transition-all duration-300 mb-[120px] bg-[#6E9EFA] hover:bg-[#ffffff] px-4">
                                 <button class="font-[500] text-[16px] leading-[24px] text-[#ffffff] hover:text-[#6E9EFA] uppercase py-4 lg:py-[19px] pl-4 lg:pl-[32px] whitespace-nowrap group-hover:text-[#ffffff] cursor-pointer">get Appointment</button>
-                                <div class="w-[46px] h-[48px] rounded-[50%] bg-[#9dbdfa] flex justify-center items-center absolute right-[6px] top-[4px] lg:right-[6px] lg:top-[6px]">
+                                <div class="w-[46px] h-[46px] rounded-[50%] bg-[#9dbdfa] flex justify-center items-center absolute right-[6px] top-[4px] lg:top-[8px]">
                                     <i class="fa-solid fa-arrow-right absolute right-[12px] top-4 text-[#ffffff] hover:text-[#6E9EFA]"></i>
                                 </div>
                             </div>
@@ -797,7 +801,7 @@
                 <div class="mt-[57px] flex gap-[30px] flex-col lg:flex-row justify-center items-center mx-auto">
                     <!-- blog 1 -->
                     <div class="bg-[#FFFFFF] shadow-[0_10px_25px_0_rgba(0,0,0,0.05)] w-[370px] rounded-[10px]">
-                        <img class="ml-2 px-4 lg:ml-0 lg:px-0" src="./assets/caseStudy1.png" alt="caseStudy1">
+                        <img src="./assets/caseStudy1.png" alt="caseStudy1">
                         <div class="mt-[27px] ml-[29px]">
                             <div>
                                 <h5 class="font-[400] text-[14px] leading-[16x] text-[#424B5C]">by <span class="text-[#6E9EFA]">Creativemela</span> <span class="text-white">aa</span><span class="text-[#2222221A]">I</span><span class="text-white">aa</span>22 Aug 2023</h5>
@@ -818,7 +822,7 @@
 
                     <!-- blog 2 -->
                     <div class="bg-[#FFFFFF] shadow-[0_10px_25px_0_rgba(0,0,0,0.05)] w-[370px] rounded-[10px]">
-                        <img class="ml-2 px-4 lg:ml-0 lg:px-0" src="./assets/caseStudy1.png" alt="caseStudy1">
+                        <img src="./assets/caseStudy1.png" alt="caseStudy1">
                         <div class="mt-[27px] ml-[29px]">
                             <div>
                                 <h5 class="font-[400] text-[14px] leading-[16x] text-[#424B5C]">by <span class="text-[#6E9EFA]">Creativemela</span> <span class="text-white">aa</span><span class="text-[#2222221A]">I</span><span class="text-white">aa</span>22 Aug 2023</h5>
@@ -839,7 +843,7 @@
 
                     <!-- blog 3 -->
                     <div class="bg-[#FFFFFF] shadow-[0_10px_25px_0_rgba(0,0,0,0.05)] w-[370px] rounded-[10px]">
-                        <img class="ml-2 px-4 lg:ml-0 lg:px-0" src="./assets/caseStudy1.png" alt="caseStudy1">
+                        <img src="./assets/caseStudy1.png" alt="caseStudy1">
                         <div class="mt-[27px] ml-[29px]">
                             <div>
                                 <h5 class="font-[400] text-[14px] leading-[16x] text-[#424B5C]">by <span class="text-[#6E9EFA]">Creativemela</span> <span class="text-white">aa</span><span class="text-[#2222221A]">I</span><span class="text-white">aa</span>22 Aug 2023</h5>
@@ -884,11 +888,11 @@
                 </div>
             </div>
 
-            <div class="mt-20 lg:mt-[53px]">
+            <div class="mt-10 lg:mt-[53px]">
                 <hr class="h-[1px] bg-[#FFFFFF12] border-0"/>
             </div>
             <!-- logo + links -->
-            <div class="mt-5 lg:mt-[95px] pb-[107px] flex flex-col lg:flex-row">
+            <div class="lg:mt-[95px] pb-[107px] flex flex-col lg:flex-row">
                 <div class=" ml-10 mt-10 lg:mt-0">
                     <img src="./assets/whiteLogo.png" alt="whiteLogo">
                     <h3 class="mt-[14px] font-[400] text-[18px] text-[#FFFFFF99]">In velit arcu posuere integer. Dolor sit am, <br> consectetur nun adipiscing elit.</h3>
