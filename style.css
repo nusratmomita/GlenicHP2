@@ -75,6 +75,18 @@
   right: 20px;
 }
 
+/* Scrolled navbar effect*/
+.scrolled{
+  background-color: #000000;
+}
+/* when scrolled the nav text should be 0f172a */
+.navLinks-colored a {
+  color: white;
+}
+
+.nestedLink a{
+  color: black;
+}
 @media screen and (max-width: 576px){
   .custom-swiper-btn_next, .custom-swiper-btn_prev{
     top: 65%;
