@@ -37,7 +37,7 @@
                        <a href="https://dribbble.com/"><i class="mr-[25px] hover:text-[#6E9EFA] cursor-pointer fa-brands fa-dribbble"></i></a>
                        <a href="https://www.behance.net/"><i class="fa-brands hover:text-[#6E9EFA] cursor-pointer fa-behance"></i></a>
                     </div>
-                     <div class="ml-[53px] lg:flex gap-[37px] hidden">
+                     <div class="ml-[53px] lg:flex gap-[38px] hidden">
                         <h4 class="font-[400] text-[14px] text-[#424B5C] cursor-pointer dm-sans-font hover:text-[#6E9EFA]">Sitemap</h4>
                         <h4 class="font-[400] text-[14px] text-[#424B5C] cursor-pointer dm-sans-font hover:text-[#6E9EFA]">Office</h4>
                         <h4 class="font-[400] text-[14px] text-[#424B5C] cursor-pointer dm-sans-font hover:text-[#6E9EFA]">Legal Notice</h4>
@@ -52,9 +52,9 @@
             <div id="overlayHeader" class="block lg:hidden fixed inset-0 bg-black/50 z-40 hidden"></div>
 
             <!-- logo + navlinks -->
-            <div class="flex lg:gap-[168px] items-center justify-between lg:justify-start">
+            <div class="flex lg:gap-[152px] items-center justify-between">
                 <!-- logo(main) -->
-                <div class="blackLogo mt-[6px]">
+                <div class="blackLogo">
                     <a href="#">
                         <img  class="glenicLogoWhite" src="./assets/whiteLogoGlenic.png" alt="whiteLogoGlenic">
                     </a>
@@ -65,7 +65,7 @@
                 </div>
 
                 <!-- navlinks -->
-                <div class="hidden lg:block flex justify-center items-center mt-[30px]">
+                <div class="hidden lg:block flex gap-[35px] justify-center items-center lg:mt-[38px] lg:mb-[30px]">
                     <ul class="flex gap-[37px] justify-center items-center navLinks">
                         <li class="relative group"><a class="text-[#424B5C] font-[500] text-[16px] leading-none hover:text-[#6E9EFA] cursor-pointer transition-all duration-300 flex justify-center items-center py-2 halyardDisplay_font" href="#">Home<i class="fa-solid fa-angle-down ml-1"></i></a>
                             <ul class="hidden group-hover:block bg-[#ffffff] p-4 absolute top-full left-0 shadow-xl border-2 border-gray-300 text-left w-[150px] hover:text-[#6E9EFA] z-4 nestedLink">
@@ -80,14 +80,14 @@
                 </div>
            
                 <!-- nav icons -->
-                <div class="flex gap-3 lg:gap-0 lg:-ml-6 -ml-0 items-center justify-center relative mt-8 lg:mt-[25px]">
+                <div class="flex gap-3 lg:gap-0 items-center justify-center relative mt-5 lg:mt-[5px]">
                     <!-- hamburger for small screen -->
                     <button id="hamburger" class="lg:hidden">
                         <i class="fa-solid fa-bars text-md text-[#424B5C] hover:text-[#6E9EFA] cursor-pointer"></i>
                     </button>
 
                     <!-- search icon -->
-                    <div class="relative ml-[0px] lg:mr-[29px]">
+                    <div class="relative mr-[0px] lg:mr-[29px] lg:mt-1.5">
                         
                         <!-- Search Icon -->
                         <button id="searchToggle" class="text-[#424B5C] hover:text-[#6E9EFA] transition navLinks">
@@ -123,7 +123,7 @@
                     </div>
 
                     <!-- language dd-->
-                    <div class="group flex flex-row gap-1 justify-center items-center lg:mr-[27px]">
+                    <div class="group flex flex-row gap-1 justify-center items-center">
                         <h4 class="text-[#424B5C] hover:text-[#6E9EFA] cursor-pointer halyardDisplay_font lg:mr-[9px]">FN</h4>
                         <h4 class="text-[#424B5C] hover:text-[#6E9EFA] cursor-pointer halyardDisplay_font lg:mr-[15px]">EN</h4>
                         <i class="relative fa-solid fa-angle-down text-[#424B5C] hover:text-[#6E9EFA] cursor-pointer py-6 lg:mr-[29px]">
@@ -139,7 +139,7 @@
 
                     <!-- btn -->
                     <div class="hidden lg:block bg-[#6E9EFA] rounded-[50px] border border-[#6E9EFA]">
-                        <button class="text-[#FFFFFF] font-[500] text-[14px] pt-[12px] pb-[11px] pl-[23px] border border-[#6E9EFA] rounded-[50px] flex gap-[10px] justify-center items-center whitespace-nowrap hover:bg-[#ffffff] hover:text-[#6E9EFA] cursor-pointer halyardDisplay_font">Make Appointment <i class="fa-solid fa-arrow-right font-[500] text-[20px] pr-[45px] mt-1"></i></button>
+                        <button class="text-[#FFFFFF] font-[500] text-[14px] pt-[12px] pb-[11px] pl-[23px] border border-[#6E9EFA] rounded-[50px] flex gap-[10px] justify-center items-center whitespace-nowrap hover:bg-[#ffffff] hover:text-[#6E9EFA] cursor-pointer">Make Appointment <i class="fa-solid fa-arrow-right font-[500] text-[20px] pr-[45px]"></i></button>
                     </div>
                 </div>
 
@@ -150,7 +150,7 @@
         <div id="mobileDrawer"
             class="fixed top-0 left-0 w-[280px] h-full bg-white shadow-lg 
                     transform -translate-x-full transition-transform duration-300 
-                    z-50 p-6 lg:hidden overflow-y-auto flex flex-col justify-between">
+                    z-50 p-6 lg:hidden overflow-y-auto flex flex-col justify-between gap-10">
 
             <div class="flex justify-between items-center mb-4">
                 <img class="w-[180px] -ml-5" src="./assets/glenicBlackLogo.png" alt="logo">
@@ -159,9 +159,9 @@
                 </button>
             </div>
 
-            <hr class="text-gray-400 w-[285px] h-full -ml-7">
+            <!-- <hr class="text-gray-400 w-[285px] h-full -ml-7"> -->
 
-            <ul class="flex flex-col gap-4 font-[500] text-[#424B5C] mt-15">
+            <ul class="flex flex-col gap-4 font-[500] text-[#424B5C]">
                 <li class="group">
                     <button id="mobilePageNav" class="flex justify-between items-center gap-2 hover:text-[#6E9EFA] w-full cursor-pointer">
                         <span class="text-xl font-medium hover:text-[#6E9EFA]">Home</span>
@@ -194,7 +194,7 @@
                 <!-- slide - 1 -->
                 <div class="swiper-slide bg-[url('./assets/BannerImg2nd.png')] bg-cover bg-no-repeat lg:bg-center">
                     <div class="container">
-                        <div class="flex flex-col lg:flex-row  relative">
+                        <div class="flex flex-col lg:flex-row relative">
                             <div class="pt-20 lg:pt-[246px] pb-60 lg:pb-[221px]">
                                 <h4 class="text-center lg:text-left font-[400] text-[24px] leading-[36px] text-[#6E9EFA]">Hi, It’s our Glenic</h4>
                                 <h2 class="whitespace-nowrap text-center lg:text-left font-[500] text-[30px] lg:text-[70px] leading-[40px] lg:leading-[70px] text-[#222222] halyardDisplay_font">Make Your Appointment <br> With Our Consultants.</h2>
@@ -212,6 +212,7 @@
                                     <img class="hidden lg:block absolute top-[650px] left-[720px] animate-pulse" src="./assets/blueCircle.png" alt="blueCircle">
                                     <img class="hidden lg:block absolute top-[300px] -left-[150px] animate-spin" src="./assets/blueWhite.png" alt="blueCircle">
                                     <img class="hidden lg:block absolute top-[100px] left-[460px] animate-ping" src="./assets/pinkCircle.png" alt="pinkCircle">
+                                    <img class="hidden lg:block absolute top-[56px] right-[0px] animate-pulse" src="./assets/bulb.png" alt="pinkCircle">
                                 </div>
                             </div>
                         </div>
@@ -233,6 +234,7 @@
                                 </div>
                             </div>
                             <div>
+                                <img class="hidden lg:block absolute top-[56px] right-[0px] animate-pulse" src="./assets/bulb.png" alt="pinkCircle">
                                 <img class="w-[50px] hidden lg:block absolute top-[230px] left-[1120px] animate-spin" src="./assets/blueWhite.png" alt="blueCircle">
                                 <img class="hidden lg:block absolute top-[650px] left-[720px] animate-pulse" src="./assets/blueCircle.png" alt="blueCircle">
                                 <img class="hidden lg:block absolute top-[300px] -left-[150px] animate-spin" src="./assets/blueWhite.png" alt="blueCircle">
@@ -273,7 +275,7 @@
                         <div class="hidden lg:block absolute top-50 -left-5 z-999" >
                             <img src="./assets/blueWhite.png" alt="lightBlueRectangle">
                         </div>
-                        <div class="hidden lg:block absolute -bottom-17 -left-20 z-0" >
+                        <div class="hidden lg:block absolute -bottom-1 -left-25 z-0" >
                             <img src="./assets/smallPinkHalfCircle.png" alt="lightBlueRectangle">
                         </div>
                     </div>
@@ -426,8 +428,8 @@
         </div>
 
         <!-- glenic big text -->
-        <div class="lg:mt-[36px] mt-[20px] lg:-ml-6 lg:mr-[91px] flex justify-center items-center">
-            <h1 class="font-[500] text-[45px] lg:text-[200px] halyardDisplay_font text-[#F8F8F8] uppercase">About <span class="text-[#6E9EFA]">.</span> Glenic</h1>
+        <div class="lg:mt-[36px] mt-[20px] lg:-ml-6 lg:mr-[91px] flex justify-center items-center lg:flex-none">
+            <h1 class="font-[500] text-[45px] lg:text-[200px] halyardDisplay_font text-[#F8F8F8] uppercase whitespace-nowrap">About <span class="text-[#6E9EFA]">.</span> Glenic</h1>
         </div>
 
         <!-- about us section-->
@@ -470,7 +472,7 @@
             
                                     <div class="flex gap-[16px] lg:gap-[19px] mt-[17px] justify-center items-center lg:justify-start lg:items-start">
                                         <img class="w-[50px] h-[50px] lg:w-[80px] lg:h-[80px]" src="./assets/callIconEmergency.png" alt="locationIcon">
-                                        <h3 class="font-[400] text-[18px] leading-[30px] lg:text-[24px] lg:leading-[36px] text-[#FFFFFF] halyardDisplay_font">Contact Us<br>+(1)245-45678 call</h3>
+                                        <h3 class="font-[400] text-[18px] leading-[30px] lg:text-[24px] lg:leading-[36px] text-[#FFFFFF] halyardDisplay_font">Contact Us<br class="hidden lg:block">+(1)245-45678 call</h3>
                                     </div>
                                 </div> 
                             </div>
@@ -485,12 +487,12 @@
 
         <!-- doctors list section -->
         <div class="mt-[111px]">
-            <div class="container">
+            <div class="container debug">
                 <div class="mb-[67px]">
                     <h3 class="text-center font-[400] text-[24px] leading-[36px] text-[#6E9EFA]">Our Team Member</h3>
                     <h2 class="text-center font-[500] text-[35px] lg:text-[50px] leading-[28px] lg:leading-[24px] text-[#222222] halyardDisplay_font mt-[10px] lg:mt-[22px]">Meet Our Expert Doctors</h2>
                 </div>
-                <div class="flex flex-col lg:flex-row gap-[30px] justify-center items-center mx-auto">
+                <div class="flex flex-col lg:flex-row gap-[30px]">
                     <div class="bg-[#FFFFFF] shadow-[0_10px_25px_0_rgba(0,0,0,0.05)] w-[370px] h-[504px] rounded-[10px]">
                         <img class="rounded-[10px]" src="./assets/doctorsUsignTab.png" alt="doctor">
                         <div class="mt-[24px] ml-[25px] mb-[22px]">
@@ -793,12 +795,15 @@
 
         <!-- blog section -->
         <div class="mt-[111px]">
-            <div class="container">
+            <div class="container debug">
                 <div class="text-center">
                     <h4 class="font-[400] text-[24px] leading-[36x] text-[#6E9EFA] mb-[22px]">Our Blogs</h4>
                     <h2 class="font-[500] text-[35px] lg:text-[50px] leading-[24px] text-[#222222] halyardDisplay_font">Latest News & Blogs</h2>
                 </div>
-                <div class="mt-[57px] flex gap-[30px] flex-col lg:flex-row justify-center items-center mx-auto">
+                <div class="px-4">
+
+                </div>
+                <div class="mt-[57px] flex flex-col lg:flex-row gap-[30px] justify-center items-center lg:justify-start lg:items-start">
                     <!-- blog 1 -->
                     <div class="bg-[#FFFFFF] shadow-[0_10px_25px_0_rgba(0,0,0,0.05)] w-[370px] rounded-[10px]">
                         <img src="./assets/caseStudy1.png" alt="caseStudy1">
@@ -821,7 +826,7 @@
                     </div>
 
                     <!-- blog 2 -->
-                    <div class="bg-[#FFFFFF] shadow-[0_10px_25px_0_rgba(0,0,0,0.05)] w-[370px] rounded-[10px]">
+                    <div class="ml-[30px] [bg-[#FFFFFF] shadow-[0_10px_25px_0_rgba(0,0,0,0.05)] w-[370px] rounded-[10px]">
                         <img src="./assets/caseStudy1.png" alt="caseStudy1">
                         <div class="mt-[27px] ml-[29px]">
                             <div>
@@ -842,7 +847,7 @@
                     </div>
 
                     <!-- blog 3 -->
-                    <div class="bg-[#FFFFFF] shadow-[0_10px_25px_0_rgba(0,0,0,0.05)] w-[370px] rounded-[10px]">
+                    <div class="ml-[30px] bg-[#FFFFFF] shadow-[0_10px_25px_0_rgba(0,0,0,0.05)] w-[370px] rounded-[10px]">
                         <img src="./assets/caseStudy1.png" alt="caseStudy1">
                         <div class="mt-[27px] ml-[29px]">
                             <div>
@@ -893,7 +898,7 @@
             </div>
             <!-- logo + links -->
             <div class="lg:mt-[95px] pb-[107px] flex flex-col lg:flex-row">
-                <div class=" ml-10 mt-10 lg:mt-0">
+                <div class="mt-10 lg:mt-0">
                     <img src="./assets/whiteLogo.png" alt="whiteLogo">
                     <h3 class="mt-[14px] font-[400] text-[18px] text-[#FFFFFF99]">In velit arcu posuere integer. Dolor sit am, <br> consectetur nun adipiscing elit.</h3>
                     <ul class="flex gap-[30px] justify-start items-center mt-[50px]">
