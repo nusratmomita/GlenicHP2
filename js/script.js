@@ -184,6 +184,8 @@ document.addEventListener("DOMContentLoaded", () => {
     } else {
       header.classList.remove("scrolled");
 
+      document.querySelector(".navLinks")?.classList.remove("navLinks-colored");
+
       blackLogo.classList.remove("hidden");
       whiteLogo.classList.add("hidden");
 
