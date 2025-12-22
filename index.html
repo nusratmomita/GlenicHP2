@@ -22,7 +22,7 @@
 </head>
 <body class="dm-sans-font">
     <!-- Preloader -->
-    <div id="preloader" class="fixed inset-0 z-50 flex items-center justify-center bg-white">
+    <!-- <div id="preloader" class="fixed inset-0 z-50 flex items-center justify-center bg-white">
         <div class="flex flex-col items-center gap-6">
 
             <div class="relative w-20 h-20">
@@ -34,7 +34,7 @@
                 Loading
             </p>
         </div>
-    </div>
+    </div> -->
 
     <!-- move up button -->
     <div class="scroll_up hidden group bg-[#6E9EFA] hover:bg-[#ffffff] hover:border-2 hover:border-[#6E9EFA] hover:rounded-md w-[50px] h-[50px] flex justify-center items-center fixed bottom-5 right-5 cursor-pointer z-50">
@@ -609,7 +609,7 @@
         </div>
 
         <!-- why choose us section -->
-        <div class="mt-[60px] lg:mt-[112px] relative">
+        <div class="mt-[0px] lg:mt-[112px] relative">
             <div class="bg-[url('./assets/serviceBG.png')] bg-cover bg-no-repeat relative overflow-hidden">
                 <h1 class="absolute ml-100 mt-30 font-[500] text-[400px] text-[#F8F8F8] z-0 text-center">Serv<span class="text-[#6E9EFA]">i</span>ce</h1>
                 <div class="container">
@@ -763,7 +763,7 @@
                         </div>
                     </div>
                     <!-- questions -->
-                    <div class="lg:w-[50%] mt-10 lg:mt-3">
+                    <div class="lg:w-[50%] mt-10 lg:mt-3 px-2 lg:px-0">
                         <div class="shadow-lg rounded-[4px] pt-[10px] pb-[10px] pl-[31px] mb-[10px] faq-item">
                             <button class="accordion flex justify-between items-center w-full cursor-pointer">
                                 <span class="font-[500] text-[16px] leading-[30px] text-[#222222] halyardDisplay_font">What can we do for you with Adobe Photoshop, & Figma?</span>
@@ -822,77 +822,81 @@
         <div class="mt-[111px]">
             <div class="container">
                 <div class="text-center">
-                    <h4 class="font-[400] text-[24px] leading-[36x] text-[#6E9EFA] mb-[22px]">Our Blogs</h4>
-                    <h2 class="font-[500] text-[35px] lg:text-[50px] leading-[24px] text-[#222222] halyardDisplay_font">Latest News & Blogs</h2>
+                    <h4 class="font-[400] text-[24px] leading-[36x] text-[#6E9EFA] lg:mb-[22px]">Our Blogs</h4>
+                    <h2 class="font-[500] text-[30px] lg:text-[50px] leading-[24px] text-[#222222] halyardDisplay_font">Latest News & Blogs</h2>
                 </div>
-                <div class="px-4">
-
-                </div>
+                
                 <div class="mt-[57px] grid grid-rows-1 grid-cols-1 lg:grid-cols-3 gap-[30px]">
                     <!-- blog 1 -->
-                    <div class="bg-[#FFFFFF] shadow-[0_10px_25px_0_rgba(0,0,0,0.05)] rounded-[10px] w-[100%]">
-                        <img class="w-[100%]" src="./assets/caseStudy1.png" alt="caseStudy1">
-                        <div class="mt-[27px] ml-[29px]">
-                            <div>
-                                <h5 class="font-[400] text-[14px] leading-[16x] text-[#424B5C]">by <span class="text-[#6E9EFA]">Creativemela</span> <span class="text-white">aa</span><span class="text-[#2222221A]">I</span><span class="text-white">aa</span>22 Aug 2023</h5>
-                                <p class="font-[500] text-[24px] leading-[36x] text-[#2E2626] halyardDisplay_font mt-[7px]">Fusce tincidunt commodo sapien, quis porttitor ipsum fringilla et.</p>
-                            </div>
-                            <!-- read more btn -->
-                            <div class="group relative border border-[#2222221A] bg-gray-100 mt-[30px] mb-[30px] rounded-[40px] w-[146px] h-[44px] flex justify-between bg-transparent hover:bg-[#6E9EFA] cursor-pointer transition-all duration-300">
-                                <button class="font-[500] text-[13px] leading-[24px] text-[#222222] uppercase pl-[20px] whitespace-nowrap group-hover:text-[#ffffff] cursor-pointer">Read more</button>
-                                <div class="group-hover:hidden block w-[38px] h-[38px] bg-[#222222] rounded-[50%] mt-[2px] mb-[2px] mr-[2px]">
-                                    <i class="fa-solid fa-arrow-right absolute right-[9px] top-[14px] text-[#ffffff] group-hover:text-[#6E9EFA]"></i>
+                    <div class="px-4 lg:px-0">
+                        <div class="bg-[#FFFFFF] shadow-[0_10px_25px_0_rgba(0,0,0,0.05)] rounded-[10px] w-[100%] border border-transparent">
+                            <img class="w-[100%]" src="./assets/caseStudy1.png" alt="caseStudy1">
+                            <div class="mt-[27px] ml-[29px]">
+                                <div>
+                                    <h5 class="font-[400] text-[14px] leading-[16x] text-[#424B5C]">by <span class="text-[#6E9EFA]">Creativemela</span> <span class="text-white">aa</span><span class="text-[#2222221A]">I</span><span class="text-white">aa</span>22 Aug 2023</h5>
+                                    <p class="font-[500] text-[24px] leading-[36x] text-[#2E2626] halyardDisplay_font mt-[7px]">Fusce tincidunt commodo sapien, quis porttitor ipsum fringilla et.</p>
                                 </div>
-                                <div class="hidden group-hover:block w-[38px] h-[38px] bg-[#FFFFFF] rounded-[50%] mt-[2px] mb-[2px] mr-[2px]">
-                                    <i class="fa-solid fa-arrow-right absolute right-[9px] top-[14px] text-[#6E9EFA] group-hover:text-[#6E9EFA]"></i>
+                                <!-- read more btn -->
+                                <div class="group relative border border-[#2222221A] bg-gray-100 mt-[30px] mb-[30px] rounded-[40px] w-[146px] h-[44px] flex justify-between bg-transparent hover:bg-[#6E9EFA] cursor-pointer transition-all duration-300">
+                                    <button class="font-[500] text-[13px] leading-[24px] text-[#222222] uppercase pl-[20px] whitespace-nowrap group-hover:text-[#ffffff] cursor-pointer">Read more</button>
+                                    <div class="group-hover:hidden block w-[38px] h-[38px] bg-[#222222] rounded-[50%] mt-[2px] mb-[2px] mr-[2px]">
+                                        <i class="fa-solid fa-arrow-right absolute right-[9px] top-[14px] text-[#ffffff] group-hover:text-[#6E9EFA]"></i>
+                                    </div>
+                                    <div class="hidden group-hover:block w-[38px] h-[38px] bg-[#FFFFFF] rounded-[50%] mt-[2px] mb-[2px] mr-[2px]">
+                                        <i class="fa-solid fa-arrow-right absolute right-[9px] top-[14px] text-[#6E9EFA] group-hover:text-[#6E9EFA]"></i>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
 
                     <!-- blog 2 -->
-                    <div class="[bg-[#FFFFFF] shadow-[0_10px_25px_0_rgba(0,0,0,0.05)] rounded-[10px] w-[100%]">
-                        <img class="w-[100%]" src="./assets/caseStudy1.png" alt="caseStudy1">
-                        <div class="mt-[27px] ml-[29px]">
-                            <div>
-                                <h5 class="font-[400] text-[14px] leading-[16x] text-[#424B5C]">by <span class="text-[#6E9EFA]">Creativemela</span> <span class="text-white">aa</span><span class="text-[#2222221A]">I</span><span class="text-white">aa</span>22 Aug 2023</h5>
-                                <p class="font-[500] text-[24px] leading-[36x] text-[#2E2626] halyardDisplay_font mt-[7px]">Fusce tincidunt commodo sapien, quis porttitor ipsum fringilla et.</p>
-                            </div>
-                            <!-- read more btn -->
-                            <div class="group relative border border-[#2222221A] bg-gray-100 mt-[30px] mb-[30px] rounded-[40px] w-[146px] h-[44px] flex justify-between bg-transparent hover:bg-[#6E9EFA] cursor-pointer transition-all duration-300">
-                                <button class="font-[500] text-[13px] leading-[24px] text-[#222222] uppercase pl-[20px] whitespace-nowrap group-hover:text-[#ffffff] cursor-pointer">Read more</button>
-                                <div class="group-hover:hidden block w-[38px] h-[38px] bg-[#222222] rounded-[50%] mt-[2px] mb-[2px] mr-[2px]">
-                                    <i class="fa-solid fa-arrow-right absolute right-[9px] top-[14px] text-[#ffffff] group-hover:text-[#6E9EFA]"></i>
+                    <div class="px-2 lg:px-0">
+                        <div class="[bg-[#FFFFFF] shadow-[0_10px_25px_0_rgba(0,0,0,0.05)] rounded-[10px] w-[100%] border border-transparent">
+                            <img class="w-[100%]" src="./assets/caseStudy1.png" alt="caseStudy1">
+                            <div class="mt-[27px] ml-[29px]">
+                                <div>
+                                    <h5 class="font-[400] text-[14px] leading-[16x] text-[#424B5C]">by <span class="text-[#6E9EFA]">Creativemela</span> <span class="text-white">aa</span><span class="text-[#2222221A]">I</span><span class="text-white">aa</span>22 Aug 2023</h5>
+                                    <p class="font-[500] text-[24px] leading-[36x] text-[#2E2626] halyardDisplay_font mt-[7px]">Fusce tincidunt commodo sapien, quis porttitor ipsum fringilla et.</p>
                                 </div>
-                                <div class="hidden group-hover:block w-[38px] h-[38px] bg-[#FFFFFF] rounded-[50%] mt-[2px] mb-[2px] mr-[2px]">
-                                    <i class="fa-solid fa-arrow-right absolute right-[9px] top-[14px] text-[#6E9EFA] group-hover:text-[#6E9EFA]"></i>
+                                <!-- read more btn -->
+                                <div class="group relative border border-[#2222221A] bg-gray-100 mt-[30px] mb-[30px] rounded-[40px] w-[146px] h-[44px] flex justify-between bg-transparent hover:bg-[#6E9EFA] cursor-pointer transition-all duration-300">
+                                    <button class="font-[500] text-[13px] leading-[24px] text-[#222222] uppercase pl-[20px] whitespace-nowrap group-hover:text-[#ffffff] cursor-pointer">Read more</button>
+                                    <div class="group-hover:hidden block w-[38px] h-[38px] bg-[#222222] rounded-[50%] mt-[2px] mb-[2px] mr-[2px]">
+                                        <i class="fa-solid fa-arrow-right absolute right-[9px] top-[14px] text-[#ffffff] group-hover:text-[#6E9EFA]"></i>
+                                    </div>
+                                    <div class="hidden group-hover:block w-[38px] h-[38px] bg-[#FFFFFF] rounded-[50%] mt-[2px] mb-[2px] mr-[2px]">
+                                        <i class="fa-solid fa-arrow-right absolute right-[9px] top-[14px] text-[#6E9EFA] group-hover:text-[#6E9EFA]"></i>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
 
                     <!-- blog 3 -->
-                    <div class="bg-[#FFFFFF] shadow-[0_10px_25px_0_rgba(0,0,0,0.05)] rounded-[10px] w-[100%]">
-                        <img class="w-[100%]" src="./assets/caseStudy1.png" alt="caseStudy1">
-                        <div class="mt-[27px] ml-[29px]">
-                            <div>
-                                <h5 class="font-[400] text-[14px] leading-[16x] text-[#424B5C]">by <span class="text-[#6E9EFA]">Creativemela</span> <span class="text-white">aa</span><span class="text-[#2222221A]">I</span><span class="text-white">aa</span>22 Aug 2023</h5>
-                                <p class="font-[500] text-[24px] leading-[36x] text-[#2E2626] halyardDisplay_font mt-[7px]">Fusce tincidunt commodo  sapien, quis porttitor ipsum  fringilla et.</p>
-                            </div>
-                            <!-- read more btn -->
-                            <div class="group relative border border-[#2222221A] bg-gray-100 mt-[30px] mb-[30px] rounded-[40px] w-[146px] h-[44px] flex justify-between bg-transparent hover:bg-[#6E9EFA] cursor-pointer transition-all duration-300">
-                                <button class="font-[500] text-[13px] leading-[24px] text-[#222222] uppercase pl-[20px] whitespace-nowrap group-hover:text-[#ffffff] cursor-pointer">Read more</button>
-                                <div class="group-hover:hidden block w-[38px] h-[38px] bg-[#222222] rounded-[50%] mt-[2px] mb-[2px] mr-[2px]">
-                                    <i class="fa-solid fa-arrow-right absolute right-[9px] top-[14px] text-[#ffffff] group-hover:text-[#6E9EFA]"></i>
+                    <div class="px-2 lg:px-0">
+                        <div class="[bg-[#FFFFFF] shadow-[0_10px_25px_0_rgba(0,0,0,0.05)] rounded-[10px] w-[100%] border border-transparent">
+                            <img class="w-[100%]" src="./assets/caseStudy1.png" alt="caseStudy1">
+                            <div class="mt-[27px] ml-[29px]">
+                                <div>
+                                    <h5 class="font-[400] text-[14px] leading-[16x] text-[#424B5C]">by <span class="text-[#6E9EFA]">Creativemela</span> <span class="text-white">aa</span><span class="text-[#2222221A]">I</span><span class="text-white">aa</span>22 Aug 2023</h5>
+                                    <p class="font-[500] text-[24px] leading-[36x] text-[#2E2626] halyardDisplay_font mt-[7px]">Fusce tincidunt commodo sapien, quis porttitor ipsum fringilla et.</p>
                                 </div>
-                                <div class="hidden group-hover:block w-[38px] h-[38px] bg-[#FFFFFF] rounded-[50%] mt-[2px] mb-[2px] mr-[2px]">
-                                    <i class="fa-solid fa-arrow-right absolute right-[9px] top-[14px] text-[#6E9EFA] group-hover:text-[#6E9EFA]"></i>
+                                <!-- read more btn -->
+                                <div class="group relative border border-[#2222221A] bg-gray-100 mt-[30px] mb-[30px] rounded-[40px] w-[146px] h-[44px] flex justify-between bg-transparent hover:bg-[#6E9EFA] cursor-pointer transition-all duration-300">
+                                    <button class="font-[500] text-[13px] leading-[24px] text-[#222222] uppercase pl-[20px] whitespace-nowrap group-hover:text-[#ffffff] cursor-pointer">Read more</button>
+                                    <div class="group-hover:hidden block w-[38px] h-[38px] bg-[#222222] rounded-[50%] mt-[2px] mb-[2px] mr-[2px]">
+                                        <i class="fa-solid fa-arrow-right absolute right-[9px] top-[14px] text-[#ffffff] group-hover:text-[#6E9EFA]"></i>
+                                    </div>
+                                    <div class="hidden group-hover:block w-[38px] h-[38px] bg-[#FFFFFF] rounded-[50%] mt-[2px] mb-[2px] mr-[2px]">
+                                        <i class="fa-solid fa-arrow-right absolute right-[9px] top-[14px] text-[#6E9EFA] group-hover:text-[#6E9EFA]"></i>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
+        </div>
         </div>
 
     </main>
