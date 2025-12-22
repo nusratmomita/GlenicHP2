@@ -22,7 +22,7 @@
 </head>
 <body class="dm-sans-font">
     <!-- Preloader -->
-    <!-- <div id="preloader" class="fixed inset-0 z-50 flex items-center justify-center bg-white">
+    <div id="preloader" class="fixed inset-0 z-50 flex items-center justify-center bg-white">
         <div class="flex flex-col items-center gap-6">
 
             <div class="relative w-20 h-20">
@@ -34,7 +34,13 @@
                 Loading
             </p>
         </div>
-    </div> -->
+    </div>
+
+    <!-- move up button -->
+    <div class="scroll_up hidden group bg-[#6E9EFA] hover:bg-[#ffffff] hover:border-2 hover:border-[#6E9EFA] hover:rounded-md w-[50px] h-[50px] flex justify-center items-center fixed bottom-5 right-5 cursor-pointer z-50">
+        <i class="fa fa-angle-up text-[#ffffff] text-[15px] group-hover:text-[#6E9EFA]"></i>
+    </div>
+
     <header class="fixed top-0 z-50 w-full">
         <!-- header 1st -->
         <div class="bg-[#F8F8F8]">
@@ -70,12 +76,14 @@
                 <!-- logo(main) -->
                 <div class="blackLogo">
                     <a href="#">
-                        <img  class="glenicLogoWhite" src="./assets/whiteLogoGlenic.png" alt="whiteLogoGlenic">
+                        <img  class="glenicLogoBlack" src="./assets/blackLogo.png" alt="blackLogoGlenic">
                     </a>
                 </div>
 
                 <div class="whiteLogo hidden">
-                    <img class="glenicWhiteLogo" src="./assets/whiteLogo.png" alt="">
+                    <a href="#">
+                        <img class="glenicWhiteLogo" src="./assets/whiteLogo.png" alt="whiteLogoGlenic">
+                    </a>
                 </div>
 
                 <!-- navlinks -->
@@ -164,7 +172,7 @@
         <div id="mobileDrawer"
             class="fixed top-0 left-0 w-[280px] h-full bg-white shadow-lg 
                     transform -translate-x-full transition-transform duration-300 
-                    z-50 p-6 lg:hidden overflow-y-auto flex flex-col justify-between gap-10">
+                    z-50 p-6 lg:hidden overflow-y-auto flex flex-col">
 
             <div class="flex justify-between items-center mb-4">
                 <img class="w-[180px] -ml-5" src="./assets/glenicBlackLogo.png" alt="logo">
@@ -175,7 +183,7 @@
 
             <!-- <hr class="text-gray-400 w-[285px] h-full -ml-7"> -->
 
-            <ul class="flex flex-col gap-4 font-[500] text-[#424B5C]">
+            <ul class="flex flex-col gap-4 font-[500] text-[#424B5C] mt-10">
                 <li class="group">
                     <button id="mobilePageNav" class="flex justify-between items-center gap-2 hover:text-[#6E9EFA] w-full cursor-pointer">
                         <span class="text-xl font-medium hover:text-[#6E9EFA]">Home</span>
@@ -273,7 +281,7 @@
             <div class="container">
                 <div class="flex flex-col lg:flex-row lg:gap-[82px]">
                     <!-- left image -->
-                    <div class="lg:w-[40%] relative">
+                    <div class="lg:w-[40%] relative z-0">
                         <img class="mt-[50px] lg:z-999 relative object-cover px-4 lg:px-0" src="./assets/patient1.png" alt="patient1">
                         <div class="hidden lg:block mt-[120px] absolute -top-29 left-10 overflow-hidden z-0" >
                             <img src="./assets/squareBlue.png" alt="squareBlue">

@@ -69,7 +69,6 @@
   background: rgb(237, 237, 237);
 }
 
-
 /* right button */
 .custom-swiper-btn_next {
   right: 20px;
@@ -79,6 +78,7 @@
 .scrolled{
   background-color: #000000;
 }
+
 /* when scrolled the nav text should be 0f172a */
 .navLinks-colored a {
   color: white;
