@@ -72,7 +72,7 @@
             <div id="overlayHeader" class="block lg:hidden fixed inset-0 bg-black/50 z-40 hidden"></div>
 
             <!-- logo + navlinks -->
-            <div class="flex lg:gap-[154px] justify-between lg:justify-start">
+            <div class="flex lg:gap-[154px] justify-between lg:justify-center">
                 <!-- logo(main) -->
                 <div class="blackLogo">
                     <a href="#">
@@ -87,9 +87,10 @@
                 </div>
 
                 <!-- navlinks -->
-                <div class="hidden lg:block flex gap-[35px] justify-center items-center lg:mt-[38px] lg:mb-[30px]">
-                    <ul class="flex gap-[37px] justify-center items-center navLinks">
-                        <li class="relative group"><a class="text-[#424B5C] font-[500] text-[16px] leading-none hover:text-[#6E9EFA] cursor-pointer transition-all duration-300 flex justify-center items-center py-2 halyardDisplay_font" href="#">Home<i class="fa-solid fa-angle-down ml-1"></i></a>
+                <div class="hidden lg:block">
+                    <ul class="flex gap-[37px] justify-center items-center navLinks lg:mt-[28px]">
+                        <li class="relative group">
+                            <a class="text-[#424B5C] font-[500] text-[16px] leading-none hover:text-[#6E9EFA] cursor-pointer transition-all duration-300 flex justify-center items-center py-2 halyardDisplay_font" href="#">Home<i class="fa-solid fa-angle-down ml-1"></i></a>
                             <ul class="hidden group-hover:block bg-[#ffffff] p-4 absolute top-full left-0 shadow-xl border-2 border-gray-300 text-left w-[150px] hover:text-[#6E9EFA] z-4 nestedLink">
                                 <li class="hover:pl-2 transition-all duration-300"><a class="font-[500] text-md" href="https://nusratmomita.github.io/Glenic/">Home Page 1</a></li>
                             </ul>
@@ -102,14 +103,14 @@
                 </div>
            
                 <!-- nav icons -->
-                <div class="flex gap-3 lg:gap-0 items-center justify-center relative mt-5 lg:mt-[5px]">
+                <div class="flex gap-3 lg:gap-0 items-center justify-center relative mt-[15px]">
                     <!-- hamburger for small screen -->
                     <button id="hamburger" class="lg:hidden">
                         <i class="fa-solid fa-bars text-md text-[#424B5C] hover:text-[#6E9EFA] cursor-pointer"></i>
                     </button>
 
                     <!-- search icon -->
-                    <div class="relative mr-[0px] lg:mr-[29px] lg:mt-1.5">
+                    <div class="relative mr-[0px] lg:mr-[29px] mt-1">
                         
                         <!-- Search Icon -->
                         <button  class="text-[#424B5C] hover:text-[#6E9EFA] transition navLinks">
@@ -145,7 +146,7 @@
                     </div>
 
                     <!-- language dd-->
-                    <div class="group flex flex-row gap-1 justify-center items-center">
+                    <div class="group flex flex-row gap-1 justify-center items-center ">
                         <h4 class="text-[#424B5C] hover:text-[#6E9EFA] cursor-pointer halyardDisplay_font lg:mr-[9px]">FN</h4>
                         <h4 class="text-[#424B5C] hover:text-[#6E9EFA] cursor-pointer halyardDisplay_font lg:mr-[15px]">EN</h4>
                         <i class="relative fa-solid fa-angle-down text-[#424B5C] hover:text-[#6E9EFA] cursor-pointer py-6 lg:mr-[29px]">
