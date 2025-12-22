@@ -175,16 +175,19 @@ document.addEventListener("DOMContentLoaded", () => {
     if (window.scrollY > 0) {
       header.classList.add("scrolled");
       document.querySelector(".navLinks")?.classList.add("navLinks-colored");
-      document.querySelector(".searchToggle")?.classList.add("navLinks-colored");
+      document.querySelector(".navIcons")?.classList.add("navLinks-colored-icons");
 
       blackLogo.classList.add("hidden");
       whiteLogo.classList.remove("hidden");
 
       scrollUpBtn.classList.remove("hidden");
-    } else {
+    } 
+    else {
       header.classList.remove("scrolled");
 
       document.querySelector(".navLinks")?.classList.remove("navLinks-colored");
+
+      document.querySelector(".navIcons")?.classList.add("navLinks-colored-icons");
 
       blackLogo.classList.remove("hidden");
       whiteLogo.classList.add("hidden");

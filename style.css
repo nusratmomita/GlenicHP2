@@ -88,7 +88,9 @@
   color: black;
 }
 
-
+.navLinks-colored-icons{
+  color: white !important;
+}
 @media screen and (max-width: 576px){
   .custom-swiper-btn_next, .custom-swiper-btn_prev{
     top: 65%;
