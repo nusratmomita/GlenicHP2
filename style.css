@@ -135,6 +135,18 @@
   transform: translateX(0);
 }
 
+/* .swiper-slide .doctor_banner_image{
+  opacity: 0;
+  transform: translateX(400px);
+  transition:  opacity 0.8s ease, transform 0.8s ease;
+}
+
+.swiper-slide-active .doctor_banner_image{
+  opacity: 1;
+  transform: translateX(0);
+} */
+
+
 
 
 

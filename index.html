@@ -22,7 +22,7 @@
 </head>
 <body class="dm-sans-font">
     <!-- Preloader -->
-    <!-- <div id="preloader" class="fixed inset-0 z-50 flex items-center justify-center bg-white">
+    <div id="preloader" class="fixed inset-0 z-50 flex items-center justify-center bg-white">
         <div class="flex flex-col items-center gap-6">
 
             <div class="relative w-20 h-20">
@@ -34,7 +34,7 @@
                 Loading
             </p>
         </div>
-    </div> -->
+    </div>
 
     <!-- move up button -->
     <div class="scroll_up hidden group bg-[#6E9EFA] hover:bg-[#ffffff] hover:border-2 hover:border-[#6E9EFA] hover:rounded-md w-[50px] h-[50px] flex justify-center items-center fixed bottom-5 right-5 cursor-pointer z-50">
@@ -72,9 +72,9 @@
             <div id="overlayHeader" class="block lg:hidden fixed inset-0 bg-black/50 z-40 hidden"></div>
 
             <!-- logo + navlinks -->
-            <div class="flex lg:gap-[154px] justify-between lg:justify-center">
+            <div class="flex lg:gap-[154px] justify-between lg:justify-center px-4 lg:px-0">
                 <!-- logo(main) -->
-                <div class="blackLogo">
+                <div class="blackLogo -mt-3 lg:-mt-0">
                     <a href="#">
                         <img  class="glenicLogoBlack" src="./assets/blackLogo.png" alt="blackLogoGlenic">
                     </a>
@@ -239,7 +239,7 @@
         <div class="swiper hero_banner_slider">
             <div class="swiper-wrapper">
                 <!-- slide - 1 -->
-                <div class="swiper-slide bg-[url('./assets/BannerImg2nd.png')] bg-cover bg-no-repeat lg:bg-center">
+                <div class="swiper-slide bg-[url('./assets/bannerMain.png')] bg-cover bg-no-repeat lg:bg-center">
                     <div class="container flex flex-col lg:flex-row relative">
                         <div class="pt-20 lg:pt-[150px] pb-60 lg:pb-[221px]">
                             <div class="lg:w-[58%] hero_content">
@@ -257,19 +257,27 @@
                             </div>
                             <div>
                                 <img class="hidden lg:block absolute top-[56px] right-[0px] animate-pulse" src="./assets/bulb.png" alt="pinkCircle">
-                                <img class="w-[50px] hidden lg:block absolute top-[230px] left-[1100px] animate-spin" src="./assets/blueWhite.png" alt="blueCircle">
+                                <img class="w-[50px] hidden lg:block absolute top-[200px] left-[1070px] animate-spin" src="./assets/blueWhite.png" alt="blueCircle">
                                 <img class="hidden lg:block absolute top-[650px] left-[720px] animate-pulse" src="./assets/blueCircle.png" alt="blueCircle">
                                 <img class="hidden lg:block absolute top-[300px] -left-[150px] animate-spin" src="./assets/blueWhite.png" alt="blueCircle">
                                 <img class="hidden lg:block absolute top-[100px] left-[460px] animate-ping" src="./assets/pinkCircle.png" alt="pinkCircle">
                             </div>
                         </div>
+                        <!-- human image -->
+                        <div class="doctor_banner_image lg:absolute lg:top-0 lg:-right-35 lg:h-full lg:w-[50vw] -mt-50 lg:-mt-0">
+                            <img 
+                                class="w-full h-full object-cover"
+                                src="./assets/bannerImg.png" 
+                                alt="doctor_banner_image"
+                            >
+                        </div>
                     </div>
                 </div>
                 <!-- slide - 2 -->
-                <div class="swiper-slide bg-[url('./assets/BannerImg2nd.png')] bg-cover bg-no-repeat lg:bg-center">
+                <div class="swiper-slide bg-[url('./assets/bannerMain.png')] bg-cover bg-no-repeat lg:bg-center">
                     <div class="container flex flex-col lg:flex-row relative">
                         <div class="pt-20 lg:pt-[150px] pb-60 lg:pb-[221px]">
-                            <div class="lg:w-[60%] hero_content">
+                            <div class="lg:w-[58%] hero_content">
                                 <h4 class="text-center lg:text-left font-[400] text-[24px] leading-[36px] text-[#6E9EFA]">Hi, It’s our Glenic</h4>
                                 <h2 class="text-center lg:text-left font-[500] text-[30px] lg:text-[70px] leading-[40px] lg:leading-[70px] text-[#222222] halyardDisplay_font">Good Health Moves Us Forward.</h2>
                                 <p class="px-4 lg:px-0 text-center lg:text-left font-[400] text-[18px] leading-[20px] lg:leading-[28px] text-[#424B5C] mt-[10px] lg:mt-[29px]">Pellentesque a arcu tincidunt, sollicitudin eros sed, venenatis justo. Proin sed tellus massa. Nullam bibendum sodales est in faucibus.</p>
@@ -284,11 +292,19 @@
                             </div>
                             <div>
                                 <img class="hidden lg:block absolute top-[56px] right-[0px] animate-pulse" src="./assets/bulb.png" alt="pinkCircle">
-                                <img class="w-[50px] hidden lg:block absolute top-[230px] left-[1120px] animate-spin" src="./assets/blueWhite.png" alt="blueCircle">
+                                <img class="w-[50px] hidden lg:block absolute top-[200px] left-[1070px] animate-spin " src="./assets/blueWhite.png" alt="blueCircle">
                                 <img class="hidden lg:block absolute top-[650px] left-[720px] animate-pulse" src="./assets/blueCircle.png" alt="blueCircle">
                                 <img class="hidden lg:block absolute top-[300px] -left-[150px] animate-spin" src="./assets/blueWhite.png" alt="blueCircle">
                                 <img class="hidden lg:block absolute top-[100px] left-[460px] animate-ping" src="./assets/pinkCircle.png" alt="pinkCircle">
                             </div>
+                        </div>
+                        <!-- human image -->
+                        <div class="doctor_banner_image lg:absolute lg:top-0 lg:-right-35 lg:h-full lg:w-[50vw] -mt-50 lg:-mt-0">
+                            <img 
+                                class="w-full h-full object-cover"
+                                src="./assets/bannerImg.png" 
+                                alt="doctor_banner_image"
+                            >
                         </div>
                     </div>
                 </div>
@@ -358,11 +374,11 @@
                         <div>
                             <p class="px-4 lg:px-0 font-[400] text-[16px] leading-[30px] mt-[9px] text-[#424B5C] text-center lg:text-left">Sit amet eget turpis. Integer tempus massa ac arcu sollicitudin sollicitudin Vivamus neque urna, iaculis et orci id, euismod tempor arcu.</p>
                         </div>
-                        <div class="relative">
+                        <div class="relative px-4 lg:px-0">
                             <img class="absolute bottom-3 -left-[18px]" src="./assets/textTail.png" alt="text">
                             <div class="mt-[33px] flex justify-start items-center bg-[#6E9EFA1A]">
-                                <i class="fa-solid fa-quote-left absolute bottom-3 pt-[11px] pl-[29px] mb-7 text-[#424B5C]"></i>
-                                <p class="bg-[#6E9EFA1A] font-[700] text-[16px] leading-[24px] italic text-[#424B5C] pt-[12px] pb-[9px] pl-[57px]">empus massa ac arcu sollicitudin sollicitudin Vivamus neque  urna, iaculis et orci id to your hospital.</p>
+                                <i class="fa-solid fa-quote-left absolute bottom-3 pt-[0px] lg:pt-[11px] pl-[15px] lg:pl-[29px] mb-7 text-[#424B5C]"></i>
+                                <p class="bg-[#6E9EFA1A] font-[700] text-[12px] lg:text-[16px] leading-[24px] italic text-[#424B5C] pt-[12px] pb-[9px] pl-[45px] lg:pl-[57px]">empus massa ac arcu sollicitudin sollicitudin Vivamus neque  urna, iaculis et orci id to your hospital.</p>
                             </div>
                         </div>
                     </div>
