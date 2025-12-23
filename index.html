@@ -41,7 +41,7 @@
         <i class="fa fa-angle-up text-[#ffffff] text-[15px] group-hover:text-[#6E9EFA]"></i>
     </div>
 
-    <header class="fixed top-0 z-50 w-full">
+    <header">
         <!-- header 1st -->
         <div class="bg-[#F8F8F8]">
             <div class="container lg:flex lg:gap-[366px]">
@@ -66,7 +66,7 @@
             </div>
         </div>
         <!-- header 2nd -->
-        <div class="container px-4 lg:px-0">
+        <div id="stickyHeader">
 
             <!-- to blur the bg -->
             <div id="overlayHeader" class="block lg:hidden fixed inset-0 bg-black/50 z-40 hidden"></div>
@@ -88,11 +88,35 @@
 
                 <!-- navlinks -->
                 <div class="hidden lg:block">
-                    <ul class="flex gap-[37px] justify-center items-center navLinks lg:mt-[28px]">
+                    <ul class="flex gap-[37px] justify-center items-center navLinks">
                         <li class="relative group">
-                            <a class="text-[#424B5C] font-[500] text-[16px] leading-none hover:text-[#6E9EFA] cursor-pointer transition-all duration-300 flex justify-center items-center py-2 halyardDisplay_font" href="#">Home<i class="fa-solid fa-angle-down ml-1"></i></a>
-                            <ul class="hidden group-hover:block bg-[#ffffff] p-4 absolute top-full left-0 shadow-xl border-2 border-gray-300 text-left w-[150px] hover:text-[#6E9EFA] z-4 nestedLink">
-                                <li class="hover:pl-2 transition-all duration-300"><a class="font-[500] text-md" href="https://nusratmomita.github.io/Glenic/">Home Page 1</a></li>
+                            <a class="text-[#424B5C] font-[500] text-[16px] leading-none hover:text-[#6E9EFA] cursor-pointer transition-all duration-300 flex justify-center items-center py-8 halyardDisplay_font" href="#">Home<i class="fa-solid fa-angle-down ml-1"></i></a>
+                            <ul class="hidden group-hover:flex gap-20 bg-[#ffffff] p-4 absolute top-full left-0 w-[450px] shadow-md border border-gray-100 text-left z-50 rounded-sm nestedLink">
+                                <li class="flex flex-row">
+                                    <hr class="rotated-180">
+                                    <ul>
+                                        <li class="mb-4 whitespace-nowrap transition-all duration-300"><a class="mega_menu font-[500] text-md transition-colors duration-300" href="https://nusratmomita.github.io/Glenic/">Home Page 2</a></li>
+                                        <li class="mb-4 whitespace-nowrap transition-all duration-300"><a class="mega_menu font-[500] text-md transition-colors duration-300" href="https://nusratmomita.github.io/Glenic/">Home Page 3</a></li>
+                                        <li class="mb-4 whitespace-nowrap transition-all duration-300"><a class="mega_menu font-[500] text-md transition-colors duration-300" href="https://nusratmomita.github.io/Glenic/">Home Page 4</a></li>
+                                        <li class="mb-4 whitespace-nowrap transition-all duration-300"><a class="mega_menu font-[500] text-md transition-colors duration-300" href="https://nusratmomita.github.io/Glenic/">Home Page 5</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <ul>
+                                        <li class="mb-4 whitespace-nowrap transition-all duration-300"><a class="mega_menu font-[500] text-md transition-colors duration-300" href="https://nusratmomita.github.io/Glenic/">Page 2</a></li>
+                                        <li class="mb-4 whitespace-nowrap transition-all duration-300"><a class="mega_menu font-[500] text-md transition-colors duration-300" href="https://nusratmomita.github.io/Glenic/">Page 3</a></li>
+                                        <li class="mb-4 whitespace-nowrap transition-all duration-300"><a class="mega_menu font-[500] text-md transition-colors duration-300" href="https://nusratmomita.github.io/Glenic/">Page 4</a></li>
+                                        <li class="mb-4 whitespace-nowrap transition-all duration-300"><a class="mega_menu font-[500] text-md transition-colors duration-300" href="https://nusratmomita.github.io/Glenic/">Page 5</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <ul>
+                                        <li class="mb-4 whitespace-nowrap transition-all duration-300"><a class="font-[500] text-md mega_menu transition-colors duration-300" href="https://nusratmomita.github.io/Glenic/">Project 2</a></li>
+                                        <li class="mb-4 whitespace-nowrap transition-all duration-300"><a class="font-[500] text-md mega_menu transition-colors duration-300" href="https://nusratmomita.github.io/Glenic/">Project 3</a></li>
+                                        <li class="mb-4 whitespace-nowrap transition-all duration-300"><a class="font-[500] text-md mega_menu transition-colors duration-300" href="https://nusratmomita.github.io/Glenic/">Project 4</a></li>
+                                        <li class="mb-4 whitespace-nowrap transition-all duration-300"><a class="font-[500] text-md mega_menu transition-colors duration-300" href="https://nusratmomita.github.io/Glenic/">Project 5</a></li>
+                                    </ul>
+                                </li>
                             </ul>
                         </li>
                         <li><a class="text-[#424B5C] font-[500] text-[16px] leading-none hover:text-[#6E9EFA] cursor-pointer transition-all duration-300 halyardDisplay_font" href="#">Pages</a></li>
@@ -103,7 +127,7 @@
                 </div>
            
                 <!-- nav icons -->
-                <div class="flex gap-3 lg:gap-0 items-center justify-center relative mt-[15px]">
+                <div class="flex gap-3 lg:gap-0 items-center justify-center relative">
                     <!-- hamburger for small screen -->
                     <button id="hamburger" class="lg:hidden">
                         <i class="fa-solid fa-bars text-md text-[#424B5C] hover:text-[#6E9EFA] cursor-pointer"></i>
@@ -211,14 +235,14 @@
     </header>
 
     <main>
-        <!-- banner section -->
-        <div class="swiper hero_banner_slider mt-33">
+        <!-- banner section   swiper-slide-active -->
+        <div class="swiper hero_banner_slider">
             <div class="swiper-wrapper">
                 <!-- slide - 1 -->
                 <div class="swiper-slide bg-[url('./assets/BannerImg2nd.png')] bg-cover bg-no-repeat lg:bg-center">
                     <div class="container flex flex-col lg:flex-row relative">
-                        <div class="pt-20 lg:pt-[212px] pb-60 lg:pb-[221px]">
-                            <div class="lg:w-[58%]">
+                        <div class="pt-20 lg:pt-[150px] pb-60 lg:pb-[221px]">
+                            <div class="lg:w-[58%] hero_content">
                                 <h4 class="text-center lg:text-left font-[400] text-[24px] leading-[36px] text-[#6E9EFA]">Hi, It’s our Glenic</h4>
                                 <h2 class="text-center lg:text-left font-[500] text-[30px] lg:text-[70px] leading-[40px] lg:leading-[70px] text-[#222222] halyardDisplay_font">Make Your Appointment With Our Consultants.</h2>
                                 <p class="px-4 lg:px-0 text-center lg:text-left font-[400] text-[18px] leading-[20px] lg:leading-[28px] text-[#424B5C] mt-[10px] lg:mt-[29px]">Pellentesque a arcu tincidunt, sollicitudin eros sed, venenatis justo. Proin sed tellus massa. Nullam bibendum sodales est in faucibus.</p>
@@ -244,8 +268,8 @@
                 <!-- slide - 2 -->
                 <div class="swiper-slide bg-[url('./assets/BannerImg2nd.png')] bg-cover bg-no-repeat lg:bg-center">
                     <div class="container flex flex-col lg:flex-row relative">
-                        <div class="pt-20 lg:pt-[212px] pb-60 lg:pb-[221px]">
-                            <div class="lg:w-[60%]">
+                        <div class="pt-20 lg:pt-[150px] pb-60 lg:pb-[221px]">
+                            <div class="lg:w-[60%] hero_content">
                                 <h4 class="text-center lg:text-left font-[400] text-[24px] leading-[36px] text-[#6E9EFA]">Hi, It’s our Glenic</h4>
                                 <h2 class="text-center lg:text-left font-[500] text-[30px] lg:text-[70px] leading-[40px] lg:leading-[70px] text-[#222222] halyardDisplay_font">Good Health Moves Us Forward.</h2>
                                 <p class="px-4 lg:px-0 text-center lg:text-left font-[400] text-[18px] leading-[20px] lg:leading-[28px] text-[#424B5C] mt-[10px] lg:mt-[29px]">Pellentesque a arcu tincidunt, sollicitudin eros sed, venenatis justo. Proin sed tellus massa. Nullam bibendum sodales est in faucibus.</p>

@@ -77,6 +77,10 @@
 /* Scrolled navbar effect*/
 .scrolled{
   background-color: #000000;
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  width: 100%;
 }
 
 /* when scrolled the nav text should be 0f172a */
@@ -91,6 +95,57 @@
 .navLinks-colored-icons{
   color: white !important;
 }
+
+.mega_menu{
+  color: #424B5C !important;
+  transition: 0.3s ease;
+}
+
+.mega_menu:hover{
+  color: #6E9EFA !important;
+}
+
+.mega_menu {
+  position: relative;
+}
+
+.mega_menu::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0;
+  height: 2px;
+  background-color: #6E9EFA;
+  transition: width 0.3s ease;
+}
+
+.mega_menu:hover::before {
+  width: 12px;
+}
+
+.swiper-slide .hero_content{
+  opacity: 0;
+  transform: translateX(-400px);
+  transition:  opacity 0.8s ease, transform 0.8s ease;
+}
+
+.swiper-slide-active .hero_content{
+  opacity: 1;
+  transform: translateX(0);
+}
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 576px){
   .custom-swiper-btn_next, .custom-swiper-btn_prev{
     top: 65%;

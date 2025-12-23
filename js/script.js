@@ -168,7 +168,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   window.addEventListener("scroll", () => {
-    const header = document.querySelector("header");
+    const header = document.getElementById("stickyHeader");
     const blackLogo = document.querySelector(".blackLogo");
     const whiteLogo = document.querySelector(".whiteLogo");
 
