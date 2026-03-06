@@ -60,7 +60,6 @@ acc.forEach(btn => {
     const icon = btn.querySelector("i");
     icon.classList.toggle("rotate-180");
 
-    // Add Tailwind styling once (optional, safe)
     icon.classList.add(
       "w-[12px]", "h-[30px]", "pl-7", "pt-[5px]", "cursor-pointer"
     );
